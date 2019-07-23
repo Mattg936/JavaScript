@@ -30,3 +30,28 @@ if(edad >= 18){
 }else{
 	console.log(nombre + " tiene " + edad + " años, no es mayor de edad");
 }
+/*
+Operadores Logicos
+AND: &&
+OR: ||
+Negacion: !
+*/
+var year = 2027;
+//Negacion
+
+if(year != 2018){
+	console.log("El año no es 2018, realmente es "+year);
+}
+
+//AND
+if(year >= 2010 && year <= 2020 && year != 2019){
+	console.log("Estamos en la ultima decada")
+}else{
+	console.log("Estamos en otras decadas")
+}
+//OR
+if(year == 2009 || (year >= 2019 && year == 2028 )){
+	console.log("El año termina en 9");
+}else{
+	console.log("Año no registrado");
+}
